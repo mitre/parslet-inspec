@@ -1,7 +1,7 @@
-source 'https://rubygems.org'
+# frozen_string_literal: true
+source "https://rubygems.org"
 
-gem 'sinatra'
-gem 'puma'
-gem 'nokogiri'
-gem 'json'
-gem 'mongo'
+gem 'inspec', '~> 1.40'
+gem 'parslet', '~> 1.5'
+gem 'rspec'
+gem 'thor'
