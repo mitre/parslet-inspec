@@ -26,7 +26,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = '>= 2.1'
 
   spec.add_dependency 'csv', '~> 0'
-  spec.add_dependency 'nokogiri', '~> 0'
+  spec.add_dependency "nokogiri", ">= 1.8.2"
   spec.add_dependency 'thor', '~> 0.19'
   spec.add_dependency 'yaml', '>= 1.8', '< 3.0'
   spec.add_dependency 'pry', '~> 0'
